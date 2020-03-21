@@ -13,6 +13,8 @@
 		73E16EC12425D3B800793C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E16EBF2425D3B800793C1F /* Main.storyboard */; };
 		73E16EC32425D3BA00793C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E16EC22425D3BA00793C1F /* Assets.xcassets */; };
 		73E16EC62425D3BA00793C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E16EC42425D3BA00793C1F /* LaunchScreen.storyboard */; };
+		73E16ECE2425D77700793C1F /* emojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E16ECD2425D77700793C1F /* emojiViewController.swift */; };
+		73E16ED02425D80300793C1F /* question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E16ECF2425D80300793C1F /* question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		73E16EC22425D3BA00793C1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E16EC52425D3BA00793C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E16EC72425D3BA00793C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E16ECD2425D77700793C1F /* emojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiViewController.swift; sourceTree = "<group>"; };
+		73E16ECF2425D80300793C1F /* question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				73E16EBB2425D3B800793C1F /* SceneDelegate.swift */,
 				73E16EBD2425D3B800793C1F /* ViewController.swift */,
 				73E16EBF2425D3B800793C1F /* Main.storyboard */,
+				73E16ECF2425D80300793C1F /* question.swift */,
+				73E16ECD2425D77700793C1F /* emojiViewController.swift */,
 				73E16EC22425D3BA00793C1F /* Assets.xcassets */,
 				73E16EC42425D3BA00793C1F /* LaunchScreen.storyboard */,
 				73E16EC72425D3BA00793C1F /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E16ED02425D80300793C1F /* question.swift in Sources */,
 				73E16EBE2425D3B800793C1F /* ViewController.swift in Sources */,
 				73E16EBA2425D3B800793C1F /* AppDelegate.swift in Sources */,
 				73E16EBC2425D3B800793C1F /* SceneDelegate.swift in Sources */,
+				73E16ECE2425D77700793C1F /* emojiViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
